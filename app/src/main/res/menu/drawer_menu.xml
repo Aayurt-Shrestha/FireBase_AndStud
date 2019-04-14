@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_message"
+            android:icon="@drawable/ic_brightness_4_black_24dp"
+            android:title="Message" />
+        <item
+            android:id="@+id/check"
+            android:icon="@drawable/ic_check"
+            android:title="check" />
+        <item
+            android:id="@+id/cloud"
+            android:icon="@drawable/ic_cloud"
+            android:title="cloud" />
+
+    </group>
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/plus"
+                android:icon="@drawable/ic_plus"
+                android:title="plus" />
+            <item
+                android:id="@+id/plus1"
+                android:icon="@drawable/ic_plus"
+                android:title="plus1" />
+            <item
+                android:id="@+id/plus2"
+                android:icon="@drawable/ic_plus"
+                android:title="plus2" />
+        </menu>
+    </item>
+</menu>
